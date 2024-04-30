@@ -1,0 +1,49 @@
+.text {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 31px;  
+    color: #643c0c;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 100vh; /* Set height to full viewport height */
+}
+.sub-text {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;  
+    color: #643c0c;
+    justify-content: center;
+    align-items: center;
+
+}
+.sub-text-containter {
+    text-align: center;
+    margin-top: 20px;
+}
+.logo {
+    width: 30%;
+    max-width: 350px;
+    position:fixed;
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+  .logo-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Set height to full viewport height */
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Button color */
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove default link underline */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button:hover {
+    background-color: #0056b3; /* Button color on hover */
+}

@@ -1,0 +1,9 @@
+header {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 31px;  
+    color: #643c0c;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 100vh; /* Set height to full viewport height */
+}
