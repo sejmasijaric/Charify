@@ -1,0 +1,93 @@
+.container {
+    width: 430px;
+    height: 900px;
+    background-color: rgba(250, 240, 230, 0.5); /* Adjusted with 50% visibility */
+    position: relative;
+    margin: 0 auto;
+    overflow-x:auto;
+}
+.welcome-text {
+    position: absolute;
+    top: 60px;
+    left: 33px;
+    color: black;
+    font-family: Jomolhari;
+    font-size: 30px;
+}
+
+.intro-text {
+    position: absolute;
+    top: 100px;
+    left: 31px;
+    color: black;
+    font-family: Jomolhari;
+    font-size: 25px;
+}
+
+.rectangle {
+    overflow-x: auto;
+    width: 345px;
+    height: 380px;
+    position: relative;
+    top: 250px;
+    left: 30px;
+    border-radius: 10px;
+    background-color: rgba(233, 226, 223, 0.5)
+}
+.overlay-image {
+    overflow-x: auto;
+    position: absolute;
+    top: -30px;
+    left: 65px;
+    width: 340px;
+    height: 300px;
+}
+.dot {
+    position: absolute;
+    top: 240px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    /* Additional styling properties as needed */
+}
+.price-text {
+    position: absolute;
+    top: 245px;
+    font-family: Jomolhari;
+    font-size: 30px;
+    color: black;
+}
+
+.heart {
+    position: absolute;
+    top: 215px;
+    width: 60px;
+    height: 60px;
+    object-fit: contain; 
+}
+.rectangle-secondary {
+    position: absolute;
+    width: 94px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(220, 210, 210, 0.7); /* Adjusted with 70% visibility */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Black border with 1px width */
+    box-sizing: border-box; /* Include border in width and height */
+    color: black;
+    font-family: Jomolhari;
+    font-size: 11px;
+    text-align: center;
+    top: 330px;
+}
+.chairs-wrapper {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack chairs vertically */
+}
+
+.chair {
+    margin-bottom: 20px; /* Add spacing between chairs */
+}
+
+.chair img {
+    width: 200px; /* Adjust image width as needed */
+}
