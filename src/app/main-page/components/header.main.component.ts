@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 
+
+
+
 @Component({
   selector: 'app-main-page-header',
   standalone: true,
@@ -8,5 +11,6 @@ import { Component } from '@angular/core';
   styleUrl: './header.main.component.css'
 })
 
-export class HeaderMainComponent {
+
+export class MainPageContentComponent {
 }
