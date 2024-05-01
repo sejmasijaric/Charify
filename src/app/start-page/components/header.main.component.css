@@ -1,0 +1,92 @@
+.container {
+    width: 430px;
+    height: 900px;
+    background-color: rgba(250, 240, 230, 0.5);
+    position: relative;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.welcome-text {
+    position: absolute;
+    top: 40px;
+    left: 33px;
+    color: black;
+    font-family: Jomolhari;
+    font-size: 20px;
+}
+
+.chair-item {
+    position: absolute;
+    width: 110px; /* Adjusted width */
+    height: auto; /* Auto height to maintain aspect ratio */
+    display: inline-block;
+    color: #DCD2D2;
+    top: 20px; /* Adjusted top position */
+}
+.chair-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.chair-rectangle {
+    background-color: #DCD2D2;
+    color: black;
+    padding: -300px; /* Adjusted padding */
+    border-radius: 10px; /* Increased border radius */
+    margin-bottom: -100px; /* Added margin-bottom to create a gap */
+    margin-top: -50px;
+}
+
+.stool-info {
+    position: absolute;
+    top: 30px;
+    left: 220px;
+}
+
+.stool-rectangle {
+    background-color: #DCD2D2;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    height: 105px;
+    margin-bottom: -100px;
+    margin-top: -70px;
+    left: 100px;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Adjustments for tabs */
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px; /* Adjust as needed */
+    margin-left: -33px;
+}
+
+.tab-item {
+    margin: 0 10px;
+    font-size: 17px; /* Adjust font size */
+    cursor: pointer;
+}
+
+.tab-item.active {
+    text-decoration: underline;
+}
+
+.tab-item:hover {
+    text-decoration: underline;
+}
+.dashboard-screenshot {
+    position: absolute;
+    left: 40px;
+    top: 120px; /* Adjust the top position according to your layout */
+    width: 300%; /* Make the screenshot span the full width */
+    length: 200%; /* Make the screenshot span the full length */
+    height: auto; /* Auto height to maintain aspect ratio */
+}

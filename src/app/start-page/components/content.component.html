@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,84 +7,84 @@
     <style>
         /* CSS for iPhone 15 template */
         .iphone-container {
-            max-width: 500px; /* Adjust according to your preference */
-            margin: 0 auto;
-            position: relative;
-            border: 1px solid #ccc;
-            border-radius: 20px;
-            overflow: hidden;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-        }
+    width: 430px;
+    height: 932px;
+    background-color: rgba(250, 240, 230, 0.5);
+    position: relative;
+    margin-top: -10px;
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-        .iphone-screen {
-            position: relative;
-            overflow: hidden;
-            border-top-left-radius: 20px;
-            border-top-right-radius: 20px;
-            background: #FAF0E6;
-        }
+.logo-container {
+    text-align: center;
+}
 
-        .iphone-notch {
-            width: 100%;
-            height: 20px;
-            background: #000;
-            border-top-left-radius: 50%;
-            border-top-right-radius: 50%;
-            position: relative;
-        }
+.logo {
+    max-width: 80%;
+    margin-top: 50px;
+    height: middle;
+}
 
-        .content {
-            padding: 20px;
-        }
+.text {
+    margin-top: -50px;
+    height: auto;
+    font-size: 24px;
+    color: #643c0c;
+    font-family: 'Bebas Neue', sans-serif;
 
-        /* Your existing styles */
-        .logo-container {
-            text-align: center;
-            margin-top: 30px;
-        }
+}
 
-        .logo {
-            max-width: 200px;
-            height: auto;
-        }
+.sub-text-container {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+}
 
-        .sub-text-container {
-            text-align: center;
-            margin-top: 20px;
-        }
+.sub-text {
+    margin-top: 10px;
+    font-size: 19px;
+    color: #643c0c;
+    margin-bottom: 10px;
+}
 
-        .sub-text {
-            margin-top: 20px;
-            font-size: 18px;
-        }
+.button-container {
+    margin-top: 40px;
+    text-align: left;
+}
 
-        .button {
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
+.start_button {
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+    margin-top: 60px;
+}
+
+.logo-container h2 {
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
     </style>
 </head>
 <body>
     <div class="iphone-container">
-        <div class="iphone-screen">
-            <div class="iphone-notch"></div>
-            <div class="content">
-                <div class="logo-container">
-                    <img src="logo.png" alt="Logo" class="logo">
-                </div>
-                <div class="sub-text-container">
-                    <p class="sub-text">Vervollständige dein Zuhause mit Charify!</p>
-                    <!-- Use JavaScript to navigate -->
-                    <!--button (click) = "navigateToMainComponent()" class="button">Let's start</button-->
-                    <a href="header.main.component.html">Let's start</a>
-                    <img src="letsgetstarted.png" alt="Chair 1" class="chair-image">
-                </div>
+        <div class="logo-container">
+            <img src="neu_logo.png" alt="Logo" class="logo">
+            <p class="text">FURNITURE</p>
+        </div>
+        <div class="sub-text-container">
+            <p class="sub-text">Vervollständigen Sie</p>
+            <p class="sub-text">dein Zuhause mit Charify!</p>
+            <div class="button-container">
+                <a href="header.main.component.html"><img src="letsgetstarted.png" alt="Chair 1" class="start_button"></a>
             </div>
         </div>
     </div>
 </body>
 </html>
+

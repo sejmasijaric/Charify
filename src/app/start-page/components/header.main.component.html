@@ -3,82 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chair Listing</title>
-    <style>
-        /* CSS for iPhone 15 template */
-        .iphone-container {
-            max-width: 500px; /* Adjust according to your preference */
-            margin: 0 auto;
-            position: relative;
-            border: 1px solid #ccc;
-            border-radius: 20px;
-            overflow: hidden;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-        }
-
-        .iphone-screen {
-            position: relative;
-            overflow: hidden;
-            border-top-left-radius: 20px;
-            border-top-right-radius: 20px;
-            background: #fff;
-            padding: 20px;
-        }
-
-        .iphone-notch {
-            width: 100%;
-            height: 20px;
-            background: #000;
-            border-top-left-radius: 50%;
-            border-top-right-radius: 50%;
-            position: relative;
-        }
-
-        /* Your custom styles for chair listing */
-        .chair-list {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            margin-top: 20px;
-        }
-
-        .chair-item {
-            width: calc(50% - 10px); /* Adjust spacing */
-            margin-bottom: 20px;
-        }
-
-        .chair-image {
-            width: 80%;
-            max-width: 80%;
-            height: auto;
-            border-radius: 10px;
-            margin-left: 15px;
-            margin-top: 20px;
-        }
-
-        .chair-name {
-            margin-top: 10px;
-            font-weight: bold;
-            text-align: center;
-        }
-    </style>
+    <title>Seitenbeschreibung</title>
+    <link rel="stylesheet" href="header.main.component.css">
 </head>
 <body>
-    <div class="iphone-container">
-        <div class="iphone-screen">
-            <div class="iphone-notch"></div>
-            <div class="chair-list">
-                <div class="chair-item">
-                    <img src="Blauer_hocker.png" alt="Chair 1" class="chair-image">
-                    <div class="chair-name">Chair 1</div>
-                </div>
-                <div class="chair-item">
-                    <img src="Bürostuhl.png" alt="Chair 2" class="chair-image">
-                    <div class="chair-name">Chair 2</div>
-                </div>
-                <!-- Add more chair items as needed -->
+    <div class="container">
+        <h1 class="welcome-text">Herzlich Willkommen!</h1>
+        <div class="tabs">
+            <div class="tab-item active">Alles</div>
+            <div class="tab-item">Wohnzimmer</div>
+            <div class="tab-item">Schlafzimmer</div>
+            <div class="tab-item">Garten</div>
+        </div>
+        <div class="chair-item" style="left: 10px; top: 202px;">
+            <div class="chair-rectangle">
+                <img src="Bürostuhl_blau.png" alt="Chair 1" class="chair-image">
             </div>
         </div>
+        <div class="chair-item" style="left: 128px; top: 200px;">
+            <div class="chair-rectangle">
+                <img src="Bürostuhl.png" alt="Chair 2" class="chair-image">
+            </div>
+        </div>
+        <!-- Add more chair items as needed -->
     </div>
+    <div class="stool-info">
+        <div class="chair-item" style="left: 35px; top: 200px;">
+            <div class="stool-rectangle">
+                Bürostühle
+            </div>
+            <div class="chair-item" style="left: -59.5px; top: 133px;">
+                <div class="chair-rectangle">
+                    <img src="roterStuhlOhneHintergrund.png" alt="Chair 1" class="chair-image">
+                </div>
+            </div>
+            <div class="chair-item" style="left: 60px; top: 130px;">
+                <div class="chair-rectangle">
+                    <img src="moderner_sessel.png" alt="Chair 2" class="chair-image">
+                </div>
+            </div>
+            <!-- Add more chair items as needed -->
+        </div>
+        <div class="stool-info">
+            <div class="chair-item" style="left: -425px; top: 321px;">
+                <div class="stool-rectangle">
+                    Sessel
+                </div>
+        </div>
+    </div>
+            <div class="chair-item" style="left: -205px; top: 480px;">
+                <div class="chair-rectangle">
+                    <img src="Blauer_hocker.png" alt="Chair 1" class="chair-image">
+                </div>
+            </div>
+            <a href="content.chair.view.html" class="rectangle-secondary" style="left: 15px;"></a>
+            <div class="chair-item" style="left: -85px; top: 500px;">
+                <div class="chair-rectangle">
+                    <img src="gelber_hocker.png" alt="Chair 2" class="chair-image">
+                </div>
+            </div>
+        </div>
+        <div class="stool-info">
+            <div class="chair-item" style="left: 33px; top: 500px;">
+                <div class="stool-rectangle">
+                    Polsterhocker
+                </div>
+        </div>
+    </div>
+    <div class="chair-item" style="left: 315px; top: 675px; ;">
+        <div class="chair-rectangle">
+            <img src="moderner_stuhl.png" alt="Chair 1" class="chair-image">
+        </div>
+    </div>
+    <div class="chair-item" style="left: 198px; top: 670px; ;">
+        <div class="chair-rectangle">
+            <img src="Weisser_moderner_stuhl.png" alt="Chair 1" class="chair-image">
+        </div>
+    </div>
+<div class="stool-info">
+    <div class="chair-item" style="left: -200px; top: 660px;">
+        <div class="stool-rectangle">
+            Moderne Stühle
+        </div>
+        <img src="Bildschirmfoto 2024-05-02 um 00.49.07.png" alt="Dashboard Screenshot" class="dashboard-screenshot">
+
+</div>
+</div>
 </body>
 </html>
