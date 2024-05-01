@@ -1,12 +1,16 @@
 import { Component } from '@angular/core';
 
+
+
+
 @Component({
   selector: 'app-main-page-content',
   standalone: true,
   imports: [],
-  templateUrl: './header.main.content.component.html',
-  styleUrl: './header.main.content.component.css'
+  templateUrl: './header.main.component.html',
+  styleUrl: './header.main.component.css'
 })
 
-export class ContentComponent {
+
+export class MainPageContentComponent {
 }
