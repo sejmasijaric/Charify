@@ -1,8 +1,5 @@
 import { Component } from '@angular/core';
 
-
-
-
 @Component({
   selector: 'app-chair-page',
   standalone: true,
@@ -10,7 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './content.chair.view.html',
   styleUrl: './content.chair.view.css'
 })
-
 
 export class ChairPageContentComponent {
 }

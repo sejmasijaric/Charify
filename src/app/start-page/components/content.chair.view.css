@@ -1,6 +1,6 @@
 .container {
     width: 430px;
-    height: 900px;
+    height: 800px;
     background-color: rgba(250, 240, 230, 0.5); /* Adjusted with 50% visibility */
     position: relative;
     margin: 0 auto;
